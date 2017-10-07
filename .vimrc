@@ -91,7 +91,7 @@ set clipboard=unnamedplus,autoselect
 " ファイルを閉じてもundo履歴を保存
 set undofile
 
-set undodir=/home/satoshi/.vim/undo
+set undodir=$HOME/.vim/undo
 
 " 自動折り返し
 set textwidth=80
@@ -111,10 +111,10 @@ if &compatible
 endif
 
 " Required:
-set runtimepath^=/home/satoshi/.vim/bundle/neobundle.vim/
+set runtimepath^=$HOME/.vim/bundle/neobundle.vim/
 
 " Required:
-call neobundle#begin(expand('/home/satoshi/.vim/bundle'))
+call neobundle#begin(expand('$HOME/.vim/bundle'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
