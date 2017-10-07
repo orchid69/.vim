@@ -85,7 +85,9 @@ set incsearch
 set hlsearch
 
 set clipboard=unnamedplus,autoselect
-
+" for Mac
+" set clipboard=unnamed,autoselect
+"
 " ファイルを閉じてもundo履歴を保存
 set undofile
 
